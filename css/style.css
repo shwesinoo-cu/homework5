@@ -1,0 +1,166 @@
+*{
+	box-sizing: border-box;
+}
+
+Body{
+	font-family: serif;
+	background-color:black;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0;
+	overflow: hidden;
+
+
+}
+
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	/*flex-direction: column;*/
+
+	height: 100vh;
+
+	margin: 0;
+	overflow: 0;
+
+
+
+}
+
+h3{
+	font-size: 30px;
+	text-align: left;
+	position: absolute;
+	top: 10%;
+	left: 8%;
+}
+
+.select{
+	background:transparent;
+	color: #fff;
+	border: none;
+	font-size: 10px;
+}
+
+
+.img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 200px;
+	margin-right: 350px;
+	margin-bottom: 20px;
+	/*margin-left: 200px;*/
+}
+span{
+	font-size: 25px;
+}
+p{
+	font-size: 25px;
+	margin-right: 100px;
+}
+.bar{
+	position: absolute;
+	top: 15%;
+	
+	right: 7%;
+	
+}
+.plus{
+	position: absolute;
+	top: 15%;
+	
+	right: 12%;
+	background: transparent;
+}
+
+
+.counter-container{
+	display: flex;
+	justify-content: right;
+	flex-direction: column;
+
+	text-align: center;
+
+    margin-top: 250px;
+    margin-right: 100px;
+	/*margin: 30px 50px;*/
+}
+
+.counter{
+	font-size: 50px;
+	margin-top: 10px;
+}
+.btn{
+	background: transparent;
+	color: #fff;
+	border: 0.3px solid gray;
+
+	padding: 0 20px;
+	cursor: pointer;
+
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	/*left: 10%;*/
+	width: 82%;
+	height: 8%;
+	font-size: 20px;
+
+}
+
+/*.select1{
+	position: absolute;
+	bottom: 10%;
+	right: 7%;
+	background: transparent;
+	color: #fff;
+
+	width: 35px;
+	height: 8%;
+
+	border: 0.5 solid #000;
+
+
+}*/
+.currency select{
+	font-size: 16px;
+	padding: 10px 20px 10px 10px;
+
+	-moz-appearance:  none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	background: black;
+	background-image: url(../img/downarrow.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-position-x: 50%;*/
+
+	cursor: pointer;
+
+	/*background: transparent;*/
+	/*color: #fff;*/
+	position: absolute;
+	bottom: 10%;
+	right: 7%;
+	width: 40px;
+	height: 8%;
+	border: 0.3px solid gray;
+
+
+}
+
